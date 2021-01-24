@@ -1,0 +1,179 @@
+h1{
+    font-size: 70px;
+}
+
+#centerme{
+    text-align: center;
+}
+
+.mybackground{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.myfont{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: cursive;
+    font-stretch: ultra-condensed;
+}
+
+
+.one{
+    background-color: rgb(149, 238, 149);
+ min-height: 200px;
+ margin-top: 70px;
+}
+.two{
+min-height: 300px;
+margin: 100px;
+width: 600px;
+height: 600px;
+padding-top: 100px;
+background-color: rgb(217, 180, 243);
+}
+
+a{
+    color:rgb(170, 43, 11);
+}
+a:hover{
+    color:rgb(69, 2, 95);
+}
+
+table, td, th
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+h2{
+    height: 400px;
+    width: 500px;
+    border: 2px solid green;
+    text-align: center;
+    outline: solid 18px rgb(172, 17, 11);
+}
+
+.first{
+    height: 500px;
+    background-color: rgb(116, 116, 255);
+
+}
+.second{
+    height: 100px;
+    background-color: rgb(253, 125, 102);
+    position: sticky;
+    top: 0;
+}
+.third{
+    height: 900px;
+    background-color: rgb(94, 230, 90);
+}
+
+.overflowing{
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    overflow: auto;
+    float: inherit;
+}
+
+.text-shadow{
+    text-shadow: 4px 4px 8px #000000;
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+}
+
+.align-me{
+    box-shadow: 4px 4px 8px #000000;
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 300px;
+    margin: 70px;
+}
+
+
+img{
+    height: 350px;
+    width: 350px;
+}
+
+.myanimation{
+    height: 200px;
+    width: 200px;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+
+@keyframes anim{
+    0%{
+        background-color: red;
+        transform: scale(.2);
+        border-radius: 100%;
+    }
+    50%{
+        background-color: rgb(32, 6, 126);
+    }
+    100%{
+        background-color: rgb(202, 183, 9);
+        transform: scale(1.2);
+        border-radius: 100%;
+    }
+}
+
+button{
+    background-color: green !important;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+    z-index: -1;
+   
+}
+
+.mycolour{
+    background-color: orangered;
+    position: fixed;
+}
+
+ol{
+    list-style-type: upper-roman;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: square;
+    font-size: 25px;
+}
+
+.element{
+    background-color: orangered;
+    height: 500px;
+    width: 100%;
+    z-index: -10;
+}
+
+  
+
+
+
+
+
+
+
+
+
